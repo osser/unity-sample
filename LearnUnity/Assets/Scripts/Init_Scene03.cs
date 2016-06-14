@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Init_Scene03 : MonoBehaviour
 {
-
 	public Material CubeMaterial;
 	public Material BulletMaterial;
+
+	public GameObject BulletSoundEffect;
 
 	// Use this for initialization
 	void Start ()
@@ -46,6 +47,8 @@ public class Init_Scene03 : MonoBehaviour
 
 			bullet.GetComponent<Rigidbody> ().mass = 2;
 			bullet.GetComponent<Rigidbody> ().AddForce ((targetPos - Camera.main.transform.position) * 10, ForceMode.Impulse);
+
+			BulletSoundEffect.GetComponent<AudioSource>().Play();
 		}
 	}
 }
