@@ -15,4 +15,18 @@ public class Food : MonoBehaviour
 	{
 		this.transform.Rotate (Vector3.up, Space.World);
 	}
+
+	void OnTriggerEnter (Collider other)
+	{
+		Debug.Log ("Food.OnTriggerEnter:" + other.name);
+	}
+
+	void OnTriggerStay (Collider other)
+	{
+	}
+
+	void OnTriggerExit (Collider other)
+	{
+		//Destroy(other.gameObject);
+	}
 }

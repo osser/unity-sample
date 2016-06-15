@@ -1,8 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Ball : MonoBehaviour
 {
+
+	public Text txtScore;
+	public GameObject txtResult;
+
+	private int score = 0;
 
 	private Rigidbody ballRigidbody;
 
@@ -47,9 +53,15 @@ public class Ball : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		Debug.Log ("Ball.OnTriggerEnter:" + other.gameObject.name + ", tag:" + other.gameObject.tag);
-		if (other.gameObject.tag.CompareTo("Food") == 0){
-			Destroy(other.gameObject);
+		//Debug.Log ("Ball.OnTriggerEnter:" + other.gameObject.name + ", tag:" + other.gameObject.tag);
+		if (other.gameObject.tag.CompareTo ("Food") == 0) {
+			score++;
+			txtScore.text = score.ToString ();
+			Destroy (other.gameObject);
+		}
+
+		if (score == 8) {
+			txtResult.SetActive (true);
 		}
 		//Destroy(other.gameObject);
 	}
