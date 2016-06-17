@@ -51,4 +51,10 @@ public class Init_Scene03 : MonoBehaviour
 			BulletSoundEffect.GetComponent<AudioSource>().Play();
 		}
 	}
+
+	void OnGUI ()
+	{
+		GUILayout.TextArea ("炮弹打箱子演示", 200);
+	}
+
 }

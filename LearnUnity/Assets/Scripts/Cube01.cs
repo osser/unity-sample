@@ -33,7 +33,7 @@ public class Cube01 : MonoBehaviour
 
 	void func1 ()
 	{
-		var cubePosition = this.gameObject.transform.position;
+//		var cubePosition = this.gameObject.transform.position;
 		switch (CubeMoveType) {
 
 		case CubeMoveEnum.Left:

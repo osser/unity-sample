@@ -20,4 +20,10 @@ public class Init_Scene02 : MonoBehaviour
 	{
 	
 	}
+
+	void OnGUI ()
+	{
+		GUILayout.TextArea ("炮弹发射演示", 200);
+	}
+
 }
