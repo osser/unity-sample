@@ -57,4 +57,6 @@ public class Init_Scene03 : MonoBehaviour
 		GUILayout.TextArea ("炮弹打箱子演示", 200);
 	}
 
+	
+
 }

@@ -46,4 +46,9 @@ public class Init_Scene18 : MonoBehaviour
 	{
 		GUILayout.TextArea ("StartCoroutine演示");
 	}
+
+	void OnCollisionEnter (Collision collision)
+	{
+		
+	}
 }
