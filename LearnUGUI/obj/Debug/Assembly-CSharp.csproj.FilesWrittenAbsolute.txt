@@ -1,0 +1,17 @@
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/obj/Debug/Assembly-CSharp.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/UnityEngine.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/UnityEditor.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Mono.Cecil.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Unity.DataContract.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/xiaoma/WorkFolder/GitHub/unity-sample/LearnUGUI/Temp/bin/Debug/Mono.Cecil.Mdb.dll
